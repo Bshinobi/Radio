@@ -5,8 +5,11 @@ def setup():
     rect   (155, 155, 300, 200)
     fill   (155,155,155)
     rect   (210, 210, 190, 100)
-    ellipse (110, 210, 55, 55)
-    
+    ellipse (70, 250, 55, 55)
+    fill(255, 255, 255)
+    textSize(32)
+    text("99 Jamz",240, 270)
+
 stations = {}
 {"99 Jamz": ["Dark Knight Dummo"],
   "104.6 Soul": ["Goodbyes"],
@@ -15,6 +18,9 @@ stations = {}
   "103 Music" : ["Walk It, Talk It"],
   "Rap 101" : ["The Light"],
  }
+  
+
+
 
 
     
